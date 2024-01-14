@@ -4,6 +4,20 @@
 
 This project implements a Library Management System using Spring MVC. It includes controllers for managing teachers and books, providing various endpoints for CRUD operations and additional functionalities. All of the endpoints are tested with Postman and project is ready to use after DB configuration.
 
+## Key Features
+
+RESTful API Endpoints: Utilizing the @RestController annotation, our project exposes clean and RESTful endpoints for various operations, facilitating easy integration with other systems.
+
+CRUD Operations: The project supports Create, Read, Update, and Delete (CRUD) operations for both teachers and books, ensuring comprehensive management of library resources.
+
+Validation Support: We've incorporated the spring-boot-starter-validation dependency to enable robust validation of incoming requests, ensuring data integrity and security.
+
+Pagination and Sorting: With the integration of Spring Data JPA, the application provides endpoints for paginated and sorted retrieval of data, enhancing user experience and system performance.
+
+Database Interaction: The project interacts with a PostgreSQL database, offering a reliable and scalable storage solution for library-related data.
+
+Dependency Management: Maven is used for project management and dependency resolution, simplifying the build and deployment processes.
+
 ### Teacher Controller
 
 The `TeacherController` manages teacher-related operations:
