@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This project implements a Library Management System using Spring MVC. It includes controllers for managing teachers and books, providing various endpoints for CRUD operations and additional functionalities. All of the endpoints are tested with Postman and project is ready to use with DB creation.
+This project implements a Library Management System using Spring MVC. It includes controllers for managing teachers and books, providing various endpoints for CRUD operations and additional functionalities. All of the endpoints are tested with Postman and project is ready to use after DB configuration.
 
 ### Teacher Controller
 
@@ -39,6 +39,7 @@ The `BookController` manages book-related operations:
 2. Configure your database settings in the `application.properties` file.
 3. Run the application using your preferred method (e.g., IDE or `mvn spring-boot:run`).
 4. Access the provided endpoints for managing teachers and books.
+5. Feel free to extend this project based on your specific requirements. The modular structure of Spring MVC allows easy customization and addition of features.
 
 Feel free to extend and customize this system based on your specific requirements.
 
